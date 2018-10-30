@@ -65,6 +65,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	if err := indexTemplate.Execute(w, data); err != nil {
 		log.Println(err)
+		// ovo je komentar
 	}
 }
 
